@@ -1,0 +1,1 @@
+print('PASS' if int(input())>59 else 'FAIL')

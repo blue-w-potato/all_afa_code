@@ -1,0 +1,1 @@
+print('YES' if 74<int(input())<91 else 'NO')
