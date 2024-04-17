@@ -1,1 +1,3 @@
-print(int(input())+1911)
+print('''This is a book.
+That is a pen.
+I am a student.''')
