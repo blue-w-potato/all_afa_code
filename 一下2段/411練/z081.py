@@ -8,8 +8,8 @@
 # 輸入只有一列，2個正整數 a,b以空格隔開，代表入學成績及尖叫分貝
 
 a,b = map(int, input().split())
-x = int(str(a+b)[-3]) + int(str(a*b)[-1])
-y = (max(a,b)-min(a,b)) + max(a*10//b, b*10//a)
+x = (a+b)%1000//100 + (a*b)%10
+y = abs(a-b) + max(a*10//b, b*10//a)
 if x%3==0 or y%3==0:
     print('A')
 elif x%5==0 or y%5==0:

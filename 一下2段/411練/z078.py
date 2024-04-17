@@ -8,4 +8,4 @@
 # 43
 x,y,z = map(int, input().split())
 a,b,c = map(int, input().split())
-print( int(str(x)[-2])*a + int(str(y)[-1])*b - z*c )
+print( x%100//10*a + y%10*b - z*c )
