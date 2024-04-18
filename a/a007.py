@@ -1,0 +1,1 @@
+print(*(lambda x:[x//60, x%60])(int(input())))
