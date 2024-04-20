@@ -1,0 +1,1 @@
+print(*(lambda x,y:('A' if x>y else 'B', x+y))(*map(int,input().split())))
