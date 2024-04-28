@@ -1,0 +1,1 @@
+print(''.join([chr(ord(i)-2+26*((ord(i)-2)<65))for i in input()] ))
