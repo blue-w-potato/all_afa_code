@@ -1,10 +1,8 @@
-a = list(map(int,input().split()[1:]))
-dp = [[1 for i in range(len(a))] for j in range(len(a))]
-for i in range(0, len(a)-1):
-    n = a[i]
-    for j in range(i, len(a)):
-        dp[i][j] = dp[i][j-1] 
-        if n < a[j]:
-            dp[i][j] += 1
-            n=a[j]
-print(max([ i[-1] for i in dp ]))
+a = list(map(int,input().split()))
+n = a.pop(0)
+dp = [ 1 for i in range(n+1)]
+for i in range(n-1):
+    for j in range(i+1,n):
+        if a[j]>a[i]:
+            dp[j] = max(dp[j],dp[i]+1)
+print(max(dp))
