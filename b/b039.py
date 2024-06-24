@@ -2,7 +2,7 @@
 
 import time
 s=time.time()
-
+#AC
 m = int(input())
 def yee( array, t0, t1, t2, row ):
     global m
