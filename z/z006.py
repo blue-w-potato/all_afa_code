@@ -1,0 +1,1 @@
+print(round(sum([round(i*100)/100 for i in (9,7.5,8,0,8.5,9.5,16)])/7, 2))
