@@ -1,0 +1,5 @@
+a,b,c,d=input(),input(),input(),input()
+print(f'|{a:>5} {b:>5}|')
+print(f'|{c:>5} {d:>5}|')
+print(f'|{a:<5} {b:<5}|')
+print(f'|{c:<5} {d:<5}|')

@@ -1,0 +1,8 @@
+a,b=eval(input()),eval(input())
+w=input()
+if w=='+':print(a+b)
+if w=='-':print(a-b)
+if w=='*':print(a*b)
+if w=='/':print(a/b)
+if w=='//':print(a//b)
+if w=='%':print(a%b)
