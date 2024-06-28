@@ -1,0 +1,5 @@
+a,b,c,d=float(input()),float(input()),float(input()),float(input())
+print(f'|{a:>7.2f} {b:>7.2f}|')
+print(f'|{c:>7.2f} {d:>7.2f}|')
+print(f'|{a:<7.2f} {b:<7.2f}|')
+print(f'|{c:<7.2f} {d:<7.2f}|')
