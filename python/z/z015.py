@@ -1,0 +1,9 @@
+print('''Tiger
+Snake
+Dragon
+Rooster
+Dog
+Pig
+Pig
+Dragon
+Dragon''')

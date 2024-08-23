@@ -1,0 +1,1 @@
+print( "congratulations" if int(input()) in [66, 75, 76, 82, 84, 85, 68, 47, 92, 46] else "thank you")
