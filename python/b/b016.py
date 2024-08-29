@@ -1,7 +1,5 @@
-a=[]
-while 1:
-    try:
-        a.append( sum(map(int,input().split())) )
-    except:
-        break
-print(sum(a))
+a = input()
+if ' ' in a:
+    print( sum( map(int, a.split()) ) )
+else:
+    print( int(a) + int(input()) )
