@@ -1,5 +1,3 @@
-
-
 import time
 s=time.time()
 #AC

@@ -1,4 +1,3 @@
-# easy
 x,y = map(int, input().split())
 ru = [ [ 1 for i in range(x+1) ] ] + [ [1] + [ 0 for i in range(x) ]  for j in range(y)]
 for i in range(1, y+1):

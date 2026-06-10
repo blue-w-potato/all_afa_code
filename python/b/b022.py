@@ -1,6 +1,3 @@
-# 效率太好不能用 ( times 太少 )
-
-
 ru = [ 0, 1 ]
 def f(n):
     global ru
